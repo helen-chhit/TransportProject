@@ -13,7 +13,6 @@ namespace Transport_Project
 {
     public partial class Form1_UserLogIn : Form
     {
-        userLogin userLogin = new userLogin();
         public Form1_UserLogIn()
         {
             InitializeComponent();
@@ -21,17 +20,25 @@ namespace Transport_Project
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            //DECALRE
+            userLogin userLogin = new userLogin();
             //INPUT
             userLogin.userName = txtUserName.Text;
             userLogin.password = txtPassword.Text;
-
             //PROCESS
-            if (userLogin.CheckUsers() == true)
+            if (userLogin.CheckUsers())
             {
-                MessageBox.Show("Successful!");
+                MessageBox.Show("Successful !");
             }
-                MessageBox.Show("Not successful!");
-            //OUTPUT
+            else
+            {
+                MessageBox.Show("Login failed !");
+            }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

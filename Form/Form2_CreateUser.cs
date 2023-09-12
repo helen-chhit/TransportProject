@@ -7,14 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Transport_Project.Class;
 
 namespace Transport_Project
 {
     public partial class Form2_CreateUser : Form
     {
+        CreateUser CreateUser = new CreateUser();
         public Form2_CreateUser()
         {
             InitializeComponent();
+        }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            //INPUT
+            CreateUser.userName = txtUserName.Text;
+            CreateUser.password = txtPassword.Text;
         }
     }
 }
