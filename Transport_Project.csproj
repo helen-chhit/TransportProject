@@ -67,7 +67,7 @@
   <ItemGroup>
     <Compile Include="Class\addConnection.cs" />
     <Compile Include="Class\booking.cs" />
-    <Compile Include="Class\CreateUser.cs" />
+    <Compile Include="Class\createUser.cs" />
     <Compile Include="Class\customer.cs" />
     <Compile Include="Class\employee.cs" />
     <Compile Include="Class\transportInfo.cs" />
