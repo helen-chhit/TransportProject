@@ -14,28 +14,6 @@ namespace Transport_Project.Class
         public string password { get; set; }
         public bool CheckUsers()
         {
-            //using (SqlConnection conn = new SqlConnection(addConnection.GetConnection()))
-            //{
-            //    try
-            //    {
-            //        conn.Open();
-            //        bool check = false;
-            //        string select = "SELECT * FROM [User] WHERE userName = '" + userName + "' and password = '" + password + "'";
-            //        SqlCommand cmd = new SqlCommand(select, conn);
-            //        cmd.Parameters.AddWithValue("@userName", userName);
-            //        cmd.Parameters.AddWithValue("@password", password);
-            //        SqlDataReader reader = cmd.ExecuteReader();
-            //        conn.Close();
-            //        return check;
-            //    }
-            //    catch(Exception)
-            //    {
-            //        throw;
-            //    }
-
-
-
-            //}
             bool check = false;
             using (SqlConnection conn = new SqlConnection(addConnection.GetConnection()))
             {
