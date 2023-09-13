@@ -189,6 +189,7 @@
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // tableLayoutPanel3
             // 
@@ -252,6 +253,7 @@
             this.lnkCreateUser.Size = new System.Drawing.Size(130, 16);
             this.lnkCreateUser.TabIndex = 8;
             this.lnkCreateUser.Text = "Create User Account";
+            this.lnkCreateUser.Click += new System.EventHandler(this.lnkCreateUser_Click);
             // 
             // Form1_UserLogIn
             // 
