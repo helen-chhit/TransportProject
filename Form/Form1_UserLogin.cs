@@ -28,11 +28,11 @@ namespace Transport_Project
             //PROCESS
             if (userLogin.CheckUsers())
             {
-                MessageBox.Show("Successful !");
+                MessageBox.Show("You've logged in successfully!");
             }
             else
             {
-                MessageBox.Show("Login failed !");
+                MessageBox.Show("You've logged in failed, Please try again!");
             }
         }
 

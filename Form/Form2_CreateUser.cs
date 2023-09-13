@@ -13,7 +13,7 @@ namespace Transport_Project
 {
     public partial class Form2_CreateUser : Form
     {
-        CreateUser CreateUser = new CreateUser();
+        createUser CreateUser = new createUser();
         public Form2_CreateUser()
         {
             InitializeComponent();
