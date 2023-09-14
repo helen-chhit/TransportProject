@@ -16,5 +16,90 @@ namespace Transport_Project
         {
             InitializeComponent();
         }
+
+        private void txtCustomerAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCustomerGender_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPhoneNumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInsertCustomer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUpdateCustomer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDeleteCustomer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSearchCustomer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReportCustomer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
