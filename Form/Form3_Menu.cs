@@ -18,39 +18,80 @@ namespace Transport_Project
             InitializeComponent();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
-            Form7_Booking booking = new Form7_Booking();
-            booking.Show();
+            //Form7_Booking booking = new Form7_Booking();
+            //booking.Show();
         }
 
         private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
         {
-            Form5_Employee employee = new Form5_Employee();
-            employee.Show();
+            //Form5_Employee employee = new Form5_Employee();
+            //employee.Show();
         }
 
         private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
+        {
+            //Form4_Customer customer = new Form4_Customer();
+            //customer.Show();
+        }
+
+        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        {
+            //Form6_TransportInfo transportInfo = new Form6_TransportInfo();
+            //transportInfo.Show();   
+        }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+            //Form2_CreateUser createUser = new Form2_CreateUser();
+            //createUser.Show();
+        }
+
+        //=================
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form7_Booking booking = new Form7_Booking();
+            booking.Show();
+        }
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Form5_Employee employee = new Form5_Employee();
+            employee.Show();
+        }
+        private void pictureBox8_Click(object sender, EventArgs e)
         {
             Form4_Customer customer = new Form4_Customer();
             customer.Show();
         }
 
-        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        private void pictureBox7_Click(object sender, EventArgs e)
         {
             Form6_TransportInfo transportInfo = new Form6_TransportInfo();
-            transportInfo.Show();   
+            transportInfo.Show();
         }
 
-        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             Form2_CreateUser createUser = new Form2_CreateUser();
             createUser.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
