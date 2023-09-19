@@ -63,26 +63,6 @@ namespace Transport_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _33893598dabad1825549e332686f6731 {
-            get {
-                object obj = ResourceManager.GetObject("33893598dabad1825549e332686f6731", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _537b684637195ae3f31fb8295b51e252 {
-            get {
-                object obj = ResourceManager.GetObject("537b684637195ae3f31fb8295b51e252", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _629305003c2728f2a39792fb6afeeaf6 {
             get {
                 object obj = ResourceManager.GetObject("629305003c2728f2a39792fb6afeeaf6", resourceCulture);
@@ -136,6 +116,96 @@ namespace Transport_Project.Properties {
         internal static System.Drawing.Bitmap afbd716d6b98641177981a89bf8d5cb5 {
             get {
                 object obj = ResourceManager.GetObject("afbd716d6b98641177981a89bf8d5cb5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnDelete_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnDelete_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnInsert_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnInsert_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnInsert_321 {
+            get {
+                object obj = ResourceManager.GetObject("btnInsert_321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnModify_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnModify_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnRemove_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnRemove_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnReport_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnReport_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnSave_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnSave_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnSearch_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnSearch_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnUpdate_32 {
+            get {
+                object obj = ResourceManager.GetObject("btnUpdate_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +286,26 @@ namespace Transport_Project.Properties {
         internal static System.Drawing.Bitmap icons8_user_100__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-user-100 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageCustomer {
+            get {
+                object obj = ResourceManager.GetObject("ImageCustomer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImageEmployee {
+            get {
+                object obj = ResourceManager.GetObject("ImageEmployee", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
