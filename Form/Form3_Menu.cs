@@ -18,8 +18,6 @@ namespace Transport_Project
             InitializeComponent();
         }
 
-        
-
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
             //Form7_Booking booking = new Form7_Booking();
@@ -79,19 +77,5 @@ namespace Transport_Project
             createUser.Show();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

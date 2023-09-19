@@ -13,7 +13,6 @@ namespace Transport_Project
 {
     public partial class Form5_Employee : Form
     {
-
         //DECLARE
         Employees emp = new Employees();
 
@@ -30,6 +29,8 @@ namespace Transport_Project
             txtEmployeeAddress.Clear();
             txtPosition.Clear();
             txtUserID.Clear();
+
+            txtEmployeeNo.Focus();
         }
 
         //SAVE BUTTON (use INSERT query)
@@ -48,7 +49,6 @@ namespace Transport_Project
             {   //OUTPUT
                 MessageBox.Show("Inserted Sucessfuly!");
                 ClearAll();
-                txtEmployeeNo.Focus();
             }
             else
             {
@@ -73,7 +73,6 @@ namespace Transport_Project
                 //OUTPUT
                 MessageBox.Show("Modified Successfully!");
                 ClearAll();
-                txtEmployeeNo.Focus();
             }
             else
             {

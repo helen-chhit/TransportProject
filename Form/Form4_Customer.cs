@@ -7,99 +7,111 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Transport_Project.Class;
 
 namespace Transport_Project
 {
     public partial class Form4_Customer : Form
     {
+        //DECLARE
+        Customers customers = new Customers();
         public Form4_Customer()
         {
             InitializeComponent();
         }
-
-        private void txtCustomerAddress_TextChanged(object sender, EventArgs e)
+        private void ClearAll()
         {
+            txtCustomerNo.Clear();
+            txtCustomerName.Clear();
+            txtCustomerGender.Clear();
+            txtCustomerAddress.Clear();
+            txtPhoneNumber.Clear();
 
+            txtCustomerNo.Focus();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCustomerGender_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPhoneNumber_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        //INSERT BUTTON (use INSERT query)
         private void btnInsertCustomer_Click(object sender, EventArgs e)
         {
+            //INPUT
+            customers.ID = txtCustomerNo.Text;
+            customers.Name = txtCustomerName.Text;
+            customers.Gender = txtCustomerGender.Text;
+            customers.Address = txtCustomerAddress.Text;
+            customers.PhoneNumber = txtPhoneNumber.Text;
 
+            //PROCESS
+            if (customers.InsertCustomer())
+            {   //OUTPUT
+                MessageBox.Show("Inserted Sucessfully!");
+                ClearAll();
+            }
+            else
+            {
+                MessageBox.Show("Inserted Failed!");
+            }
         }
 
+        //UPDATE BUTTON (use UPDATE query)
         private void btnUpdateCustomer_Click(object sender, EventArgs e)
         {
+            //INPUT
+            customers.ID = txtCustomerNo.Text;
+            customers.Name = txtCustomerName.Text;
+            customers.Gender = txtCustomerGender.Text;
+            customers.Address = txtCustomerAddress.Text;
+            customers.PhoneNumber = txtPhoneNumber.Text;
 
+            //PROCESS
+            if (customers.UpdateCustomer())
+            {   //Output
+                MessageBox.Show("Updated Sucessfully!");
+                ClearAll();
+            }
+            else
+            {
+                MessageBox.Show("Update Failed!");
+            }
         }
 
+        //DELETE BUTTON (use DELETE query)
         private void btnDeleteCustomer_Click(object sender, EventArgs e)
         {
+            //INPUT
+            customers.ID = txtCustomerNo.Text;
 
+            //PROCESS
+            if (customers.DeleteCustomer())
+            {   //OUTPUT
+                MessageBox.Show("Deleted Sucessfully!");
+                ClearAll();
+            }
+            else
+            {
+                MessageBox.Show("Deleted Failed!");
+            }
         }
 
+        //SEARCH BUTTON (use SELECT query)
         private void btnSearchCustomer_Click(object sender, EventArgs e)
         {
+            //INPUT
+            customers.ID = txtCustomerNo.Text;
 
-        }
-
-        private void btnReportCustomer_Click(object sender, EventArgs e)
-        {
-
+            //PROCESS
+            if (customers.SearchCustomer())
+            {   //OUTPUT
+                MessageBox.Show("Click OK to view the OUTPUT!");
+                txtCustomerNo.Text = customers.ID.ToString();
+                txtCustomerName.Text = customers.Name;
+                txtCustomerGender.Text = customers.Gender;
+                txtCustomerAddress.Text = customers.Address;
+                txtPhoneNumber.Text = customers.PhoneNumber;
+            }
+            else
+            {
+                MessageBox.Show("Nothing!");
+            }
         }
     }
 }
