@@ -67,9 +67,10 @@
   <ItemGroup>
     <Compile Include="Class\addConnection.cs" />
     <Compile Include="Class\booking.cs" />
-    <Compile Include="Class\createUser.cs" />
-    <Compile Include="Class\customer.cs" />
-    <Compile Include="Class\employee.cs" />
+    <Compile Include="Class\CreateUser.cs" />
+    <Compile Include="Class\Customers.cs" />
+    <Compile Include="Class\Employees.cs" />
+    <Compile Include="Class\Persons.cs" />
     <Compile Include="Class\transportInfo.cs" />
     <Compile Include="Class\userLogin.cs" />
     <Compile Include="Form\Form2_CreateUser.cs">
@@ -222,19 +223,34 @@
     <None Include="Resources\nm0hnrb8.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\CustomerImage1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\EmployeeImage1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\btnSave_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnModify_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnReport_32.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btnSearch_32.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnModify_32.png" />
+    <None Include="Resources\btnSearch_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRemove_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageEmployee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageCustomer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageEmployee1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnInsert_321.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
