@@ -139,7 +139,7 @@
             // 
             this.btnSaveEmployee.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btnSaveEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnSaveEmployee.Image = global::Transport_Project.Properties.Resources.btnSave_32;
+            //this.btnSaveEmployee.Image = global::Transport_Project.Properties.Resources.btnSave_32;
             this.btnSaveEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSaveEmployee.Location = new System.Drawing.Point(68, 626);
             this.btnSaveEmployee.Name = "btnSaveEmployee";
@@ -154,7 +154,7 @@
             // 
             this.btnModifyEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.btnModifyEmployee.ForeColor = System.Drawing.Color.Black;
-            this.btnModifyEmployee.Image = global::Transport_Project.Properties.Resources.btnModify_32;
+            //this.btnModifyEmployee.Image = global::Transport_Project.Properties.Resources.btnModify_32;
             this.btnModifyEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnModifyEmployee.Location = new System.Drawing.Point(218, 626);
             this.btnModifyEmployee.Name = "btnModifyEmployee";
@@ -182,7 +182,7 @@
             // btnRemoveEmployee
             // 
             this.btnRemoveEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnRemoveEmployee.Image = global::Transport_Project.Properties.Resources.btnRemove_32;
+            //this.btnRemoveEmployee.Image = global::Transport_Project.Properties.Resources.btnRemove_32;
             this.btnRemoveEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRemoveEmployee.Location = new System.Drawing.Point(668, 626);
             this.btnRemoveEmployee.Name = "btnRemoveEmployee";
@@ -196,7 +196,7 @@
             // btnReportEmployee
             // 
             this.btnReportEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnReportEmployee.Image = global::Transport_Project.Properties.Resources.btnReport_32;
+            //this.btnReportEmployee.Image = global::Transport_Project.Properties.Resources.btnReport_32;
             this.btnReportEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnReportEmployee.Location = new System.Drawing.Point(518, 626);
             this.btnReportEmployee.Name = "btnReportEmployee";

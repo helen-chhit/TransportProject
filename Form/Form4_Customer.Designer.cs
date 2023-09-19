@@ -275,7 +275,6 @@
             // pictureBox1
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.pictureBox1, 5);
-            this.pictureBox1.Image = global::Transport_Project.Properties.Resources.ImageCustomer;
             this.pictureBox1.Location = new System.Drawing.Point(103, 52);
             this.pictureBox1.Name = "pictureBox1";
             this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 6);
@@ -288,7 +287,6 @@
             // btnInsertCustomer
             // 
             this.btnInsertCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnInsertCustomer.Image = global::Transport_Project.Properties.Resources.btnInsert_32;
             this.btnInsertCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnInsertCustomer.Location = new System.Drawing.Point(103, 652);
             this.btnInsertCustomer.Name = "btnInsertCustomer";
@@ -302,7 +300,6 @@
             // btnUpdateCustomer
             // 
             this.btnUpdateCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnUpdateCustomer.Image = global::Transport_Project.Properties.Resources.btnUpdate_32;
             this.btnUpdateCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnUpdateCustomer.Location = new System.Drawing.Point(253, 652);
             this.btnUpdateCustomer.Name = "btnUpdateCustomer";
@@ -316,7 +313,6 @@
             // btnDeleteCustomer
             // 
             this.btnDeleteCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnDeleteCustomer.Image = global::Transport_Project.Properties.Resources.btnDelete_32;
             this.btnDeleteCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDeleteCustomer.Location = new System.Drawing.Point(403, 652);
             this.btnDeleteCustomer.Name = "btnDeleteCustomer";
@@ -330,7 +326,6 @@
             // btnSearchCustomer
             // 
             this.btnSearchCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnSearchCustomer.Image = global::Transport_Project.Properties.Resources.btnSearch_32;
             this.btnSearchCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSearchCustomer.Location = new System.Drawing.Point(553, 652);
             this.btnSearchCustomer.Name = "btnSearchCustomer";
@@ -344,7 +339,6 @@
             // btnReportCustomer
             // 
             this.btnReportCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnReportCustomer.Image = global::Transport_Project.Properties.Resources.btnReport_32;
             this.btnReportCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnReportCustomer.Location = new System.Drawing.Point(703, 652);
             this.btnReportCustomer.Name = "btnReportCustomer";
