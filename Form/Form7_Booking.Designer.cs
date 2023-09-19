@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnReport = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtInvoiceNo = new System.Windows.Forms.TextBox();
             this.txtEmployeeNo = new System.Windows.Forms.TextBox();
             this.txtCustomerNo = new System.Windows.Forms.TextBox();
             this.txtRemark = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnAddBooking = new System.Windows.Forms.Button();
             this.btnSaveBooking = new System.Windows.Forms.Button();
@@ -106,6 +106,19 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1091, 781);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
+            // pictureBox1
+            // 
+            this.tableLayoutPanel1.SetColumnSpan(this.pictureBox1, 5);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pictureBox1.Image = global::Transport_Project.Properties.Resources._8e24b29f2ca9f0dbaae85d8373d00718;
+            this.pictureBox1.Location = new System.Drawing.Point(173, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 5);
+            this.pictureBox1.Size = new System.Drawing.Size(744, 244);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnSearch
             // 
             this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -145,6 +158,28 @@
             this.btnReport.TabIndex = 15;
             this.btnReport.Text = "Report";
             this.btnReport.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Location = new System.Drawing.Point(173, 415);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(144, 50);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Remark";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Location = new System.Drawing.Point(173, 365);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(144, 50);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Customer No";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
             // 
@@ -200,41 +235,6 @@
             this.txtRemark.Size = new System.Drawing.Size(594, 22);
             this.txtRemark.TabIndex = 24;
             // 
-            // pictureBox1
-            // 
-            this.tableLayoutPanel1.SetColumnSpan(this.pictureBox1, 5);
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = global::Transport_Project.Properties.Resources._8e24b29f2ca9f0dbaae85d8373d00718;
-            this.pictureBox1.Location = new System.Drawing.Point(173, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 5);
-            this.pictureBox1.Size = new System.Drawing.Size(744, 244);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Location = new System.Drawing.Point(173, 365);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(144, 50);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Customer No";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Location = new System.Drawing.Point(173, 415);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(144, 50);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Remark";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -255,6 +255,7 @@
             this.btnAddBooking.TabIndex = 26;
             this.btnAddBooking.Text = "Add Booking";
             this.btnAddBooking.UseVisualStyleBackColor = true;
+            this.btnAddBooking.Click += new System.EventHandler(this.btnAddBooking_Click);
             // 
             // btnSaveBooking
             // 

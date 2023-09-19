@@ -89,7 +89,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Transport_Project.Properties.Resources._33893598dabad1825549e332686f6731;
             this.pictureBox1.Location = new System.Drawing.Point(157, 185);
             this.pictureBox1.Name = "pictureBox1";
             this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 9);
